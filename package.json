@@ -14,7 +14,7 @@
     "url": "git+ssh://git@github.com/lostinplace/ezoraclequery.git"
   },
   "scripts": {
-    "build": "./builddocs.sh",
+    "build": "./builddocs.sh"
   },
   "author": "",
   "license": "ISC",
