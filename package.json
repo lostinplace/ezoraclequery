@@ -1,0 +1,30 @@
+{
+  "name": "ezoraclequery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/ezoraclequery.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin":{
+    "ezoraclequery": "bin/execAsProcess.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lostinplace/ezoraclequery.git"
+  },
+  "scripts": {
+    "build": "./builddocs.sh",
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lostinplace/ezoraclequery/issues"
+  },
+  "homepage": "https://github.com/lostinplace/ezoraclequery#readme",
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "minimist": "^1.2.0",
+    "oracledb": "^1.1.0"
+  }
+}
